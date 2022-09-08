@@ -1,0 +1,22 @@
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    color: rgb(223, 190, 190);
+    
+}
+
+@media screen and ( max-width:760px){
+    .container{
+        margin: 0 auto;
+        width: 700px;
+        
+    }
+}
+
+@media screen and ( max-width:400px){
+    .container{
+        margin: 0 auto;
+        width: 376px;
+        
+    }
+}

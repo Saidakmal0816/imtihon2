@@ -1,0 +1,51 @@
+.main__hero{
+  display: flex;
+  img{
+    position: relative;
+  }
+  &__body{
+    left: -650px;
+    width: 500px;
+    position: absolute;
+    
+    
+  }
+
+        &__zizo{
+      position: relative;
+      margin-top: 70px;
+      margin-left: 230px;
+      
+      h1{
+        font-size: 50px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+      }
+      p{
+        margin-left: 100px;
+        width: 360px;
+      }
+      color: #ffff;
+      position: absolute;
+      top: 100px;
+      width: 500px;
+      &__btn{
+        margin-left: 100px;
+        color: #ffff;
+        Width:150px;
+        Height:45px;
+        border: none;
+        background-color: #FCB72B;
+    }
+    &__btn:hover{
+    
+      background-color: transparent;
+      }
+    &__btn:hover:active{
+        
+        background-color:#FCB72B;
+    }
+    }
+}        
+      
+    
